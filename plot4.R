@@ -43,7 +43,7 @@ with(myDf, plot(DateTime, Voltage, type = "l", xlab = "datetime", ylab = "Voltag
 with(myDf, plot(DateTime, Sub_metering_1, type = "l", xlab = "", ylab = "Energy sub metering", col = "black"))
 with(myDf, points(DateTime, Sub_metering_2, type = "l", col = "red"))
 with(myDf, points(DateTime, Sub_metering_3, type = "l", col = "blue"))
-legend("topright", lty = 1, cex=0.7, bty = "n", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+legend("topright", lty = 1, cex=0.9, bty = "n", col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 ##plot bottom right
 with(myDf, plot(DateTime, Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global_reactive_power"))
